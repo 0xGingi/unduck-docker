@@ -1,0 +1,12 @@
+services:
+  unduck:
+    build: .
+    ports:
+      - "3478:80"
+    restart: unless-stopped
+    networks:
+      - unduck-network
+
+networks:
+  unduck-network:
+    driver: bridge 
