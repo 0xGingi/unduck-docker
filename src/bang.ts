@@ -58610,12 +58610,21 @@ export const bangs = [
   },
   {
     c: "Kagi",
-    d: "www.kagi.com",
+    d: "kagi.com",
     r: 0,
     s: "kagi.com",
     sc: "Kagi",
     t: "k",
     u: "https://kagi.com/search?q={{{s}}}",
+  },
+  {
+    c: "Kagi Assistant",
+    d: "kagi.com/assistant",
+    r: 0,
+    s: "kagi.com/Assistant",
+    sc: "Kagi Assistant",
+    t: "ai",
+    u: "https://kagi.com/assistant?q={{{s}}}",
   },
   {
     c: "Entertainment",
